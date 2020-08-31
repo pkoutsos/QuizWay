@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#9999ff"
+    tools:context="com.example.quizway.QuizGeography">
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/which_country_is_the_biggest_one"
+        android:textColor="#000"
+        android:id="@+id/question_geography"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/germany"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/select_1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/russia"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/select_2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/france"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/select_3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/italy"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/select_4"/>
+        
+
+</LinearLayout>

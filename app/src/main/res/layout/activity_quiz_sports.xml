@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#ffebcc"
+    tools:context="com.example.quizway.QuizGeography">
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="@string/where_was_mo_farah_born"
+        android:textColor="#000"
+        android:id="@+id/question_geography"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/india"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/select_1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/usa"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/select_2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/somalia"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/select_3"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/senegal"
+        android:padding="8dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/select_4"/>
+
+
+</LinearLayout>
